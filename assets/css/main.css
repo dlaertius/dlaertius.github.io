@@ -121,6 +121,14 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-copyright a:hover{ color: #2d72e1; }
 
 
+/*-----------------------------------------------------------------
+  7. >>> Spacet between buttons
+----------------------------------------------------------------*/
+.space {
+	width: 20px;
+	height: auto;
+	display: inline-block;
+  }
 
 /*-------------------------------------------------------------------------------
  Responsive XS Style @media (max-width: 767px) 
