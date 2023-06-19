@@ -13,19 +13,19 @@ Theme Name: Jason Stroff
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
-html {font-family: 'Inter', sans-serif;background-color:#FFF}
+html {font-family: 'Inter', sans-serif;background-color:#FAF8F8}
 body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color:#373737; font-size:14px}
 a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
-a{color: #000}
+a{color: #1B1919}
 iframe {border: 0;outline: none;}
-::-moz-selection {background:#000;text-shadow: none;color:#FFF}
-::selection {background:#000;text-shadow: none;color:#FFF}
+::-moz-selection {background:#1B1919;text-shadow: none;color:#FAF8F8}
+::selection {background:#1B1919;text-shadow: none;color:#FAF8F8}
 img {max-width: 100%;border: none;outline: none;height: auto;}
 input,textarea {border-radius: 0;resize: none;}
 ul {padding: 0;margin: 0;}
 @font-face {
 font-family: 'Inter', sans-serif;}
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: transparent;background-image: none;color:#000;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: transparent;background-image: none;color:#1B1919;}
 /* 1.2 Typography */
 h1,h2,h3,h4,h5,h6 {font-family: 'Inter', sans-serif;}
 figure{ margin: 0 }
@@ -37,42 +37,42 @@ svg,img { max-width: 100%; height: auto; }
 .ds-header{ position: fixed; top: 0; width: 100%; z-index: 5; background-color: #FFF; padding: 70px 0;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; }
 .ds-header.ds-fixed-header{ padding:20px 0;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); }
 .ds-header-inner{ display: flex; justify-content: space-between; align-items: center; }
-.ds-logo{ text-transform: uppercase; font-size: 18px; letter-spacing: 3px; color: #000; display: flex; align-items: center; }
-.ds-logo span{ display:flex; align-items: center; justify-content: center; width: 40px; height: 40px; background-color: #000; border-radius: 4px; color: #FFF; font-size: 22px; font-weight: 600; text-align: center; margin-right: 12px; }
-.ds-logo:hover{ color: #000; }
+.ds-logo{ text-transform: uppercase; font-size: 18px; letter-spacing: 3px; color: #1B1919; display: flex; align-items: center; }
+.ds-logo span{ display:flex; align-items: center; justify-content: center; width: 40px; height: 40px; background-color: #1B1919; border-radius: 4px; color: #FAF8F8; font-size: 22px; font-weight: 600; text-align: center; margin-right: 12px; }
+.ds-logo:hover{ color: #1B1919; }
 
 .ds-social{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; }
 .ds-social li{ margin-left: 12px; }
 .ds-social li:first-child{ margin-left: 0; }
-.ds-social li a{ border-radius: 100%; color: #FFF; width: 24px; height: 24px; background-color: #2d72e1; display:flex; justify-content: center; align-items: center; text-align: center; font-size: 16px; }
-.ds-social li a:hover{ background-color: #000; color: #FFF; }
+.ds-social li a{ border-radius: 100%; color: #FAF8F8; width: 24px; height: 24px; background-color: #0E2EE6; display:flex; justify-content: center; align-items: center; text-align: center; font-size: 16px; }
+.ds-social li a:hover{ background-color: #1B1919; color: #FAF8F8; }
 /*-----------------------------------------------------------------
   2. >>> Banner Style
 ----------------------------------------------------------------*/
 .ds-banner section{ padding-left: 70px; padding-right: 100px; }
 .ds-banner section h1 span{ display: block; text-transform: uppercase; letter-spacing: 1px;  font-weight: 500; font-size: 16px; padding-bottom: 30px; }
-.ds-banner section h1{ font-weight: 600; font-size: 48px; line-height: 60px; color: #000; }
+.ds-banner section h1{ font-weight: 600; font-size: 48px; line-height: 60px; color: #1B1919; }
 .ds-numbervalulist{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; margin: 0; padding: 0; margin-top: 60px; }
 .ds-numbervalulist li{ margin-right: 60px; }
 .ds-numbervalulist li:last-child{ margin-right: 0; }
-.ds-numbervalulist strong{ display: block; color: #2d72e1; font-size: 36px; font-weight: 800; }
+.ds-numbervalulist strong{ display: block; color: #0E2EE6; font-size: 36px; font-weight: 800; }
 .ds-numbervalulist span{ font-size: 16px; letter-spacing: 1px; }
 /*-----------------------------------------------------------------
   3. >>> About Style
 ----------------------------------------------------------------*/
 .ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
-.ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #2d72e1; padding-bottom: 7px; margin-bottom: 23px; }
+.ds-heading{ display: inline-block; font-weight: 700; color: #1B1919; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #0E2EE6; padding-bottom: 7px; margin-bottom: 23px; }
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 
-.ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#2d72e1; padding:17px 30px;  border: 2px solid #2d72e1;border-radius: 60px; }
-.ds-button:hover{ background-color:#2d72e1 ; color: #FFF; }
+.ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#0E2EE6; padding:17px 30px;  border: 2px solid #0E2EE6;border-radius: 60px; }
+.ds-button:hover{ background-color:#0E2EE6 ; color: #FAF8F8; }
 .ds-arrow-button i{ display: inline-block; vertical-align: middle; }
 /*-----------------------------------------------------------------
   4. >>> Skills Style
 ----------------------------------------------------------------*/
 .ds-skills-section{ padding-bottom: 105px; }
 .ds-skills-list{ list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; align-items: center; margin-top: 11px; }
-.ds-skills-list li{ display: inline-block; color: #373737; font-size: 16px; padding:10px 20px; background-color: #FFF; border: 1px solid #D7D7D7;
+.ds-skills-list li{ display: inline-block; color: #373737; font-size: 16px; padding:10px 20px; background-color: #FAF8F8; border: 1px solid #D7D7D7;
   border-radius: 27px; margin-right: 15px; margin-bottom: 15px;  font-weight: 500;}
 
 /*-----------------------------------------------------------------
@@ -95,13 +95,13 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-work-section{ padding-bottom: 80px; }
 .ds-work-list{ border-radius: 20px; padding-left: 70px; padding-top:40px; padding-right: 70px; background-color:#F6F8FA; margin-bottom: 40px;}
 .ds-work-list section{ padding-top: 20px; padding-right: 120px; }
-.ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
+.ds-work-tilte{ color: #1B1919; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
 .ds-work-list p{ font-weight: 300; font-size: 18px; line-height: 30px; }
 .ds-work-list .ds-button{ margin-top: 20px; }
 
 .ds-work-det-hed{ padding-top: 42px; padding-bottom: 80px; }
-.ds-work-det-title{ font-weight: 600; color:#000; font-size: 48px; margin-bottom: 20px; }
-.ds-work-det-dep{ display:block;font-weight: 600; color: #000; font-size: 18px; }
+.ds-work-det-title{ font-weight: 600; color:#1B1919; font-size: 48px; margin-bottom: 20px; }
+.ds-work-det-dep{ display:block;font-weight: 600; color: #1B1919; font-size: 18px; }
 .ds-work-content-sec{ padding: 100px 0; }
 .ds-work-content-sec p{ font-size: 18px; line-height: 36px; margin-bottom: 30px; }
 .ds-work-content-sec h2{ font-size: 30px; font-weight: 700; margin-bottom: 30px; }
@@ -111,14 +111,14 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 /*-----------------------------------------------------------------
   7. >>> Footer Style
 ----------------------------------------------------------------*/
-.ds-footer{ background-color: #000; padding: 120px 0; }
+.ds-footer{ background-color: #1B1919; padding: 120px 0; }
 .ds-footer section { padding-bottom: 97px; }
 .ds-footer section span{ color: rgba(255,255,255,0.5); text-transform: uppercase; font-weight: 700; font-size: 16px; letter-spacing: 1px; display: block; padding-bottom: 20px; }
-.ds-footer section  h4{ color: #FFF; font-size: 48px; font-weight: 700; }
-.ds-footer section p{ letter-spacing: 1.13px; color: #FFF; font-size: 18px; margin-bottom: 40px; }
+.ds-footer section  h4{ color: #FAF8F8; font-size: 48px; font-weight: 700; }
+.ds-footer section p{ letter-spacing: 1.13px; color: #FAF8F8; font-size: 18px; margin-bottom: 40px; }
 .ds-copyright{ color: rgba(255,255,255,0.5); letter-spacing: 1px; font-size: 16px; }
 .ds-copyright a{color: rgba(255,255,255,0.5);}
-.ds-copyright a:hover{ color: #2d72e1; }
+.ds-copyright a:hover{ color: #0E2EE6; }
 
 
 /*-----------------------------------------------------------------
