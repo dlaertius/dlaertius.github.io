@@ -44,7 +44,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-social{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; }
 .ds-social li{ margin-left: 12px; }
 .ds-social li:first-child{ margin-left: 0; }
-.ds-social li a{ border-radius: 100%; color: #FAF8F8; width: 24px; height: 24px; background-color: #0E2EE6; display:flex; justify-content: center; align-items: center; text-align: center; font-size: 16px; }
+.ds-social li a{ border-radius: 100%; color: #FAF8F8; width: 24px; height: 24px; background-color: #3B6D9D; display:flex; justify-content: center; align-items: center; text-align: center; font-size: 16px; }
 .ds-social li a:hover{ background-color: #1B1919; color: #FAF8F8; }
 /*-----------------------------------------------------------------
   2. >>> Banner Style
@@ -55,17 +55,17 @@ svg,img { max-width: 100%; height: auto; }
 .ds-numbervalulist{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; margin: 0; padding: 0; margin-top: 60px; }
 .ds-numbervalulist li{ margin-right: 60px; }
 .ds-numbervalulist li:last-child{ margin-right: 0; }
-.ds-numbervalulist strong{ display: block; color: #0E2EE6; font-size: 36px; font-weight: 800; }
+.ds-numbervalulist strong{ display: block; color: #3B6D9D; font-size: 36px; font-weight: 800; }
 .ds-numbervalulist span{ font-size: 16px; letter-spacing: 1px; }
 /*-----------------------------------------------------------------
   3. >>> About Style
 ----------------------------------------------------------------*/
 .ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
-.ds-heading{ display: inline-block; font-weight: 700; color: #1B1919; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #0E2EE6; padding-bottom: 7px; margin-bottom: 23px; }
+.ds-heading{ display: inline-block; font-weight: 700; color: #1B1919; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #3B6D9D; padding-bottom: 7px; margin-bottom: 23px; }
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 
-.ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#0E2EE6; padding:17px 30px;  border: 2px solid #0E2EE6;border-radius: 60px; }
-.ds-button:hover{ background-color:#0E2EE6 ; color: #FAF8F8; }
+.ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#3B6D9D; padding:17px 30px;  border: 2px solid #3B6D9D;border-radius: 60px; }
+.ds-button:hover{ background-color:#3B6D9D ; color: #FAF8F8; }
 .ds-arrow-button i{ display: inline-block; vertical-align: middle; }
 /*-----------------------------------------------------------------
   4. >>> Skills Style
@@ -118,7 +118,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-footer section p{ letter-spacing: 1.13px; color: #FAF8F8; font-size: 18px; margin-bottom: 40px; }
 .ds-copyright{ color: rgba(255,255,255,0.5); letter-spacing: 1px; font-size: 16px; }
 .ds-copyright a{color: rgba(255,255,255,0.5);}
-.ds-copyright a:hover{ color: #0E2EE6; }
+.ds-copyright a:hover{ color: #3B6D9D; }
 
 
 /*-----------------------------------------------------------------
